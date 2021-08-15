@@ -3,46 +3,20 @@ using System;
 using CineMania.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CineMania.Migrations
 {
     [DbContext(typeof(CinemaniaContext))]
-    partial class CinemaniaContextModelSnapshot : ModelSnapshot
+    [Migration("20210811091928_migration67")]
+    partial class migration67
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.7");
-
-            modelBuilder.Entity("CineMania.Models.Contact", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Message")
-                        .IsRequired()
-                        .HasMaxLength(1000)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Subject")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Contacts");
-                });
 
             modelBuilder.Entity("CineMania.Models.Movie", b =>
                 {
@@ -141,92 +115,92 @@ namespace CineMania.Migrations
                         new
                         {
                             Id = 8,
-                            Description = "The Evil Dead is a 1981 American supernatural horror film written and directed by Sam Raimi, ... The film's high-definition debut was in a 2010 Blu-ray",
-                            Genre = "action",
-                            ImageName = "evildead.jpg",
-                            ReleaseDate = new DateTime(2014, 2, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "evildead"
+                            Description = "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+                            Genre = "Drama",
+                            ImageName = "image.jpg",
+                            ReleaseDate = new DateTime(1976, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Rocky"
                         },
                         new
                         {
                             Id = 9,
-                            Description = "hrithicshan  is the indian movies played by tiger sinopf and prity girl, drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.",
-                            Genre = "romantic",
-                            ImageName = "hrithicshan.jpg",
-                            ReleaseDate = new DateTime(2020, 5, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "hrithicshan"
+                            Description = "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+                            Genre = "Drama",
+                            ImageName = "image1.jpg",
+                            ReleaseDate = new DateTime(1976, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Rocky"
                         },
                         new
                         {
                             Id = 10,
-                            Description = "For many scholars, Revelation 1:14-15 offers a clue that Jesus's skin was a darker hue and that his hair was woolly in texture. The hairs of his head, it says, were white as white wool, white as snow",
-                            Genre = "drama",
-                            ImageName = "jesus.jpg",
-                            ReleaseDate = new DateTime(2015, 7, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "jesus"
+                            Description = "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+                            Genre = "Drama",
+                            ImageName = "image2.jpg",
+                            ReleaseDate = new DateTime(1976, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Rocky"
                         },
                         new
                         {
                             Id = 11,
-                            Description = "Kya Kehna (English: So well Said) is a 2000 Indian Hindi romantic drama film. ... Kya Kehna dealt with the taboo issue of pre-marital pregnancy and society views ",
-                            Genre = "hollow",
-                            ImageName = "kykehna.jpg",
-                            ReleaseDate = new DateTime(1998, 12, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "kykehna"
+                            Description = "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+                            Genre = "Drama",
+                            ImageName = "image3.jpg",
+                            ReleaseDate = new DateTime(1976, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Rocky"
                         },
                         new
                         {
                             Id = 12,
-                            Description = "A highly decorated ex-Marine sniper returns to action to foil an assassination plot targeting the president, but soon finds himself framed for murder.",
-                            Genre = "action",
-                            ImageName = "shooter.jpg",
-                            ReleaseDate = new DateTime(2010, 1, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "shooter"
+                            Description = "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+                            Genre = "Drama",
+                            ImageName = "image4.jpg",
+                            ReleaseDate = new DateTime(1976, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Rocky"
                         },
                         new
                         {
                             Id = 13,
-                            Description = "is a 2017 Philippine melodrama television series starring Beauty Gonzalez, ... ABS-CBN television drama filmed in high, is drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.",
-                            Genre = "romantic",
-                            ImageName = "pusongligaw.jpg",
-                            ReleaseDate = new DateTime(2022, 6, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "pusongligaw"
+                            Description = "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+                            Genre = "Drama",
+                            ImageName = "image5.jpg",
+                            ReleaseDate = new DateTime(1976, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Rocky"
                         },
                         new
                         {
                             Id = 14,
-                            Description = "Crocodiles have powerful jaws with many conical teeth and short legs with clawed webbed toes. They share a unique body form that allows the eyes, ears, and nostrils to be above the water surface while mos.",
-                            Genre = "drama",
-                            ImageName = "crocodile.jpg",
-                            ReleaseDate = new DateTime(2011, 1, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "crocodile"
+                            Description = "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+                            Genre = "Drama",
+                            ImageName = "image6.jpg",
+                            ReleaseDate = new DateTime(1976, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Rocky"
                         },
                         new
                         {
                             Id = 15,
-                            Description = "Superman is a fictional character and a superhero who first appeared in American comic books published by DC Comics. ... He was found and adopted by farmers ",
-                            Genre = "catoon",
-                            ImageName = "superman.jpg",
-                            ReleaseDate = new DateTime(1899, 4, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "superman"
+                            Description = "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+                            Genre = "Drama",
+                            ImageName = "image7.jpg",
+                            ReleaseDate = new DateTime(1976, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Rocky"
                         },
                         new
                         {
                             Id = 16,
-                            Description = "redemption a man from united state who fight with a thousand and thousand people ,is drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.",
-                            Genre = "action",
-                            ImageName = "anaconda.jpg",
-                            ReleaseDate = new DateTime(2000, 4, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "anaconda"
+                            Description = "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+                            Genre = "Drama",
+                            ImageName = "image8.jpg",
+                            ReleaseDate = new DateTime(1976, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Rocky"
                         },
                         new
                         {
                             Id = 17,
-                            Description = "Zombies are the main antagonists of the World War Z franchise. They are the reanimated corpses of dead humans andare extremely violent beings that attack anything living to eat, kill, and infect..",
-                            Genre = "action",
-                            ImageName = "war.jpg",
-                            ReleaseDate = new DateTime(2021, 8, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "war"
+                            Description = "A small-time boxer gets a supremely rare chance to fight a heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+                            Genre = "Drama",
+                            ImageName = "image9.jpg",
+                            ReleaseDate = new DateTime(1976, 11, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Rocky"
                         });
                 });
 #pragma warning restore 612, 618
