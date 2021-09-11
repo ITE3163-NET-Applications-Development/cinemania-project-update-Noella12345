@@ -2,7 +2,7 @@
 
 namespace CineMania.Migrations
 {
-    public partial class migration99 : Migration
+    public partial class nono : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -10,71 +10,71 @@ namespace CineMania.Migrations
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 8,
-                column: "Title",
-                value: "man_moon");
+                column: "ImageName",
+                value: "image.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 9,
-                column: "Title",
-                value: "vasu");
+                column: "ImageName",
+                value: "image1.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 10,
-                column: "Title",
-                value: "jack");
+                column: "ImageName",
+                value: "image2.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 11,
-                column: "Title",
-                value: "jetli");
+                column: "ImageName",
+                value: "image3.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 12,
-                column: "Title",
-                value: "dragon");
+                column: "ImageName",
+                value: "image4.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 13,
-                column: "Title",
-                value: "maria");
+                column: "ImageName",
+                value: "image5.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 14,
-                column: "Title",
-                value: "lavi");
+                column: "ImageName",
+                value: "image7.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 15,
-                column: "Title",
-                value: "jungo");
+                column: "ImageName",
+                value: "image8.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 16,
-                column: "Title",
-                value: "vampaya");
+                column: "ImageName",
+                value: "up.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 17,
-                column: "Title",
-                value: "indian");
+                column: "ImageName",
+                value: "image9.jpg");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -83,71 +83,71 @@ namespace CineMania.Migrations
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 8,
-                column: "Title",
-                value: "Rocky");
+                column: "ImageName",
+                value: "evildead.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 9,
-                column: "Title",
-                value: "Rocky");
+                column: "ImageName",
+                value: "hrithicshan.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 10,
-                column: "Title",
-                value: "Rocky");
+                column: "ImageName",
+                value: "jesus.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 11,
-                column: "Title",
-                value: "Rocky");
+                column: "ImageName",
+                value: "kykehna.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 12,
-                column: "Title",
-                value: "Rocky");
+                column: "ImageName",
+                value: "shooter.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 13,
-                column: "Title",
-                value: "Rocky");
+                column: "ImageName",
+                value: "pusongligaw.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 14,
-                column: "Title",
-                value: "Rocky");
+                column: "ImageName",
+                value: "crocodile.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 15,
-                column: "Title",
-                value: "Rocky");
+                column: "ImageName",
+                value: "superman.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 16,
-                column: "Title",
-                value: "Rocky");
+                column: "ImageName",
+                value: "anaconda.jpg");
 
             migrationBuilder.UpdateData(
                 table: "Movies",
                 keyColumn: "Id",
                 keyValue: 17,
-                column: "Title",
-                value: "Rocky");
+                column: "ImageName",
+                value: "war.jpg");
         }
     }
 }

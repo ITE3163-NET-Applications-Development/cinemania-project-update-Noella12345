@@ -143,7 +143,7 @@ namespace CineMania.Migrations
                             Id = 8,
                             Description = "The Evil Dead is a 1981 American supernatural horror film written and directed by Sam Raimi, ... The film's high-definition debut was in a 2010 Blu-ray",
                             Genre = "action",
-                            ImageName = "evildead.jpg",
+                            ImageName = "image.jpg",
                             ReleaseDate = new DateTime(2014, 2, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "evildead"
                         },
@@ -152,7 +152,7 @@ namespace CineMania.Migrations
                             Id = 9,
                             Description = "hrithicshan  is the indian movies played by tiger sinopf and prity girl, drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.",
                             Genre = "romantic",
-                            ImageName = "hrithicshan.jpg",
+                            ImageName = "image1.jpg",
                             ReleaseDate = new DateTime(2020, 5, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "hrithicshan"
                         },
@@ -161,7 +161,7 @@ namespace CineMania.Migrations
                             Id = 10,
                             Description = "For many scholars, Revelation 1:14-15 offers a clue that Jesus's skin was a darker hue and that his hair was woolly in texture. The hairs of his head, it says, were white as white wool, white as snow",
                             Genre = "drama",
-                            ImageName = "jesus.jpg",
+                            ImageName = "image2.jpg",
                             ReleaseDate = new DateTime(2015, 7, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "jesus"
                         },
@@ -170,7 +170,7 @@ namespace CineMania.Migrations
                             Id = 11,
                             Description = "Kya Kehna (English: So well Said) is a 2000 Indian Hindi romantic drama film. ... Kya Kehna dealt with the taboo issue of pre-marital pregnancy and society views ",
                             Genre = "hollow",
-                            ImageName = "kykehna.jpg",
+                            ImageName = "image3.jpg",
                             ReleaseDate = new DateTime(1998, 12, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "kykehna"
                         },
@@ -179,7 +179,7 @@ namespace CineMania.Migrations
                             Id = 12,
                             Description = "A highly decorated ex-Marine sniper returns to action to foil an assassination plot targeting the president, but soon finds himself framed for murder.",
                             Genre = "action",
-                            ImageName = "shooter.jpg",
+                            ImageName = "image4.jpg",
                             ReleaseDate = new DateTime(2010, 1, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "shooter"
                         },
@@ -188,7 +188,7 @@ namespace CineMania.Migrations
                             Id = 13,
                             Description = "is a 2017 Philippine melodrama television series starring Beauty Gonzalez, ... ABS-CBN television drama filmed in high, is drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.",
                             Genre = "romantic",
-                            ImageName = "pusongligaw.jpg",
+                            ImageName = "image5.jpg",
                             ReleaseDate = new DateTime(2022, 6, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "pusongligaw"
                         },
@@ -197,7 +197,7 @@ namespace CineMania.Migrations
                             Id = 14,
                             Description = "Crocodiles have powerful jaws with many conical teeth and short legs with clawed webbed toes. They share a unique body form that allows the eyes, ears, and nostrils to be above the water surface while mos.",
                             Genre = "drama",
-                            ImageName = "crocodile.jpg",
+                            ImageName = "image7.jpg",
                             ReleaseDate = new DateTime(2011, 1, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "crocodile"
                         },
@@ -206,7 +206,7 @@ namespace CineMania.Migrations
                             Id = 15,
                             Description = "Superman is a fictional character and a superhero who first appeared in American comic books published by DC Comics. ... He was found and adopted by farmers ",
                             Genre = "catoon",
-                            ImageName = "superman.jpg",
+                            ImageName = "image8.jpg",
                             ReleaseDate = new DateTime(1899, 4, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "superman"
                         },
@@ -215,7 +215,7 @@ namespace CineMania.Migrations
                             Id = 16,
                             Description = "redemption a man from united state who fight with a thousand and thousand people ,is drafted to fight in a future war where the fate of humanity relies on his ability to confront the past.",
                             Genre = "action",
-                            ImageName = "anaconda.jpg",
+                            ImageName = "up.jpg",
                             ReleaseDate = new DateTime(2000, 4, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "anaconda"
                         },
@@ -224,7 +224,7 @@ namespace CineMania.Migrations
                             Id = 17,
                             Description = "Zombies are the main antagonists of the World War Z franchise. They are the reanimated corpses of dead humans andare extremely violent beings that attack anything living to eat, kill, and infect..",
                             Genre = "action",
-                            ImageName = "war.jpg",
+                            ImageName = "image9.jpg",
                             ReleaseDate = new DateTime(2021, 8, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Title = "war"
                         });

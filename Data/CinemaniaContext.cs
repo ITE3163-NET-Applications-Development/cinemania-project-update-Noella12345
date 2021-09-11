@@ -96,7 +96,7 @@ namespace CineMania.Data
                     Title = "evildead",
                     Description = "The Evil Dead is a 1981 American supernatural horror film written and directed by" +
                                   " Sam Raimi, ... The film's high-definition debut was in a 2010 Blu-ray",
-                    ImageName = "evildead.jpg",
+                    ImageName = "image.jpg",
                     Genre = "action",
                     ReleaseDate = DateTime.Parse("2014-02-06")
                 },
@@ -106,7 +106,7 @@ namespace CineMania.Data
                     Title = "hrithicshan",
                     Description = "hrithicshan  is the indian movies played by tiger sinopf and prity girl, drafted to fight in a future war where " +
                                   "the fate of humanity relies on his ability to confront the past.",
-                    ImageName = "hrithicshan.jpg",
+                    ImageName = "image1.jpg",
                     Genre = "romantic",
                     ReleaseDate = DateTime.Parse("2020-05-07")
                 },
@@ -116,7 +116,7 @@ namespace CineMania.Data
                     Title = "jesus",
                     Description = "For many scholars, Revelation 1:14-15 offers a clue that Jesus's skin was a darker hue and that his hair was woolly in texture. " +
                                   "The hairs of his head, it says, were white as white wool, white as snow",
-                    ImageName = "jesus.jpg",
+                    ImageName = "image2.jpg",
                     Genre = "drama",
                     ReleaseDate = DateTime.Parse("2015-07-05")
                 },
@@ -127,7 +127,7 @@ namespace CineMania.Data
                     Description = "Kya Kehna (English: So well Said) is a 2000 Indian Hindi " +
                                   "romantic drama film. ... Kya Kehna dealt with" +
                                   " the taboo issue of pre-marital pregnancy and society views ",
-                    ImageName = "kykehna.jpg",
+                    ImageName = "image3.jpg",
                     Genre = "hollow",
                     ReleaseDate = DateTime.Parse("1998-12-05")
                 },
@@ -138,7 +138,7 @@ namespace CineMania.Data
                     Description = "A highly decorated ex-Marine sniper returns to action " +
                                   "to foil an assassination plot targeting the president," +
                                   " but soon finds himself framed for murder.",
-                    ImageName = "shooter.jpg",
+                    ImageName = "image4.jpg",
                     Genre = "action",
                     ReleaseDate = DateTime.Parse("2010-01-24")
                 },
@@ -150,7 +150,7 @@ namespace CineMania.Data
                                   "starring Beauty Gonzalez, ... ABS-CBN television drama filmed in high, " +
                                   "is drafted to fight in a future war where " +
                                   "the fate of humanity relies on his ability to confront the past.",
-                    ImageName = "pusongligaw.jpg",
+                    ImageName = "image5.jpg",
                     Genre = "romantic",
                     ReleaseDate = DateTime.Parse("2022-06-12")
                 },
@@ -160,7 +160,7 @@ namespace CineMania.Data
                     Title = "crocodile",
                     Description = "Crocodiles have powerful jaws with many conical teeth and short legs with clawed webbed toes. They share a unique body " +
                                   "form that allows the eyes, ears, and nostrils to be above the water surface while mos.",
-                    ImageName = "crocodile.jpg",
+                    ImageName = "image7.jpg",
                     Genre = "drama",
                     ReleaseDate = DateTime.Parse("2011-01-03")
                 },
@@ -170,7 +170,7 @@ namespace CineMania.Data
                     Title = "superman",
                     Description = "Superman is a fictional character and a superhero who first appeared " +
                                   "in American comic books published by DC Comics. ... He was found and adopted by farmers ",
-                    ImageName = "superman.jpg",
+                    ImageName = "image8.jpg",
                     Genre = "catoon",
                     ReleaseDate = DateTime.Parse("1899-04-30")
                 },
@@ -180,7 +180,7 @@ namespace CineMania.Data
                     Title = "anaconda",
                     Description = "redemption a man from united state who fight with a thousand and thousand people ,is drafted to fight in a future war where " +
                                   "the fate of humanity relies on his ability to confront the past.",
-                    ImageName = "anaconda.jpg",
+                    ImageName = "up.jpg",
                     Genre = "action",
                     ReleaseDate = DateTime.Parse("2000-04-06")
                 },
@@ -191,7 +191,7 @@ namespace CineMania.Data
                     Description = "Zombies are the main antagonists of the World War Z franchise. " +
                                   "They are the reanimated corpses of dead humans and" +
                                   "are extremely violent beings that attack anything living to eat, kill, and infect..",
-                    ImageName = "war.jpg",
+                    ImageName = "image9.jpg",
                     Genre = "action",
                     ReleaseDate = DateTime.Parse("2021-08-13")
                 },
